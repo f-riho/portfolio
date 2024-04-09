@@ -131,7 +131,7 @@ picture img {
     position: absolute;
     width: 20%;
     top: 548px;
-    right: 145px;
+    right: 15%;
 }
 
 .works_logo {
@@ -454,6 +454,8 @@ body {
 
     .lead {
         font-size: 18px;
+        padding-top: 250px;
+        padding-bottom: 100px;
     }
 
     .lead_logo2 {

@@ -261,7 +261,7 @@ h2 {
 
 .page_top {
     position: fixed;
-    right: 100%;
+    right: 20%;
     bottom: 210px;
     width: 8%;
     z-index: 10;
