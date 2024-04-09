@@ -132,7 +132,7 @@ a:hover {
 /*  メニュー*/
 .header_menu ul {
     position: fixed;
-    right: 5%;
+    left: 50%;
     top: 48px;
     z-index: 99;
 }
@@ -261,7 +261,7 @@ h2 {
 
 .page_top {
     position: fixed;
-    left: 50%;
+    margin-left: 50%;
     bottom: 210px;
     width: 8%;
     z-index: 10;
@@ -290,11 +290,7 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
-    .header {
-        width: 100%;
-    }
-
-    .footer {
+    .header_top {
         width: 100%;
     }
 
