@@ -96,6 +96,10 @@ a:hover {
     padding-left: 14%;
 }
 
+picture img {
+    width: 100%;
+}
+
 .concept {
     position: relative;
 }
