@@ -434,7 +434,7 @@ body {
     height: 100%;
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 767px) {
     .fv h1 {
         font-size: 28px;
     }

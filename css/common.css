@@ -290,6 +290,14 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
     .page_top {
         width: 50px;
     }
