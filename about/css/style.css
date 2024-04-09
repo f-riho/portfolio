@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+
+/* ここから */
+
+.name {
+    margin-top: 56px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.about {
+    position: relative;
+}
+
+.about_point {
+    width: 126px;
+    position: absolute;
+    right: 5%;
+}
+
+.about p {
+    margin-top: 113px;
+    font-size: 24px;
+    line-height: 2.00;
+    margin: 40px;
+}
+
+.about_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 176px;
+    box-sizing: border-box;
+}
+
+.about_me {
+    width: 50%;
+    padding-top: 12%;
+}
+
+.about_text {
+    width: 45%;
+}
+
+.about_text h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #068B72;
+    padding-top: 103px;
+    padding-bottom: 44px;
+}
+
+.about_text p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.about_under {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 216px;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+@media screen and (max-width:767px) {
+    .about_wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .about_point {
+        width: 100px;
+    }
+
+    .inner {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about_text h3 {
+        text-align: center;
+    }
+
+    .about_text {
+        display: block;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}

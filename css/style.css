@@ -1,0 +1,520 @@
+@charset "utf-8";
+
+
+
+/* ポートフォリオ */
+
+/* Loading*/
+#container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+}
+
+/* #container.is-active {
+    opacity: 0;
+    visibility: hidden;
+} */
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading.is-active {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loading-animation {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    background-color: #20a3ea;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loading-animation.is-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#splash {
+    /*fixedで全面に固定*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* Loadingバー中央配置　*/
+#splash_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header_logo {
+    width: 16%;
+    padding-top: 63px;
+}
+
+.name {
+    margin-top: 86px;
+    position: absolute;
+    z-index: 99;
+    padding-left: 14%;
+}
+
+.concept {
+    position: relative;
+}
+
+.concept_logo {
+    position: absolute;
+    width: 15%;
+    top: 118px;
+    right: 20%;
+}
+
+.lead {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 340px;
+    font-size: 24px;
+    line-height: 2.08;
+}
+
+.lead_logo {
+    width: 28%;
+    padding-left: 5%;
+    margin-top: -30px;
+    margin-bottom: 66px;
+}
+
+.lead_logo2 {
+    position: absolute;
+    width: 20%;
+    top: 548px;
+    right: 145px;
+}
+
+.works_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #068B72;
+    width: 315px;
+    height: 198px;
+    position: relative;
+    padding: 10px;
+    border: 3px solid #068B72;
+}
+
+.works_logo::after {
+    content: '';
+    border: 1.5px solid #000;
+    position: absolute;
+    top: 16px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+.works ul {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.works ul li {
+    border: 1px solid #000;
+    width: 346px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 27px auto;
+}
+
+.works ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.more {
+    margin-top: 82px;
+}
+
+.about_me {
+    width: 38%;
+    margin: auto;
+    margin-top: 180px;
+}
+
+.about_wrap {
+    position: relative;
+    max-width: 1200px;
+}
+
+.about_flower01 {
+    position: absolute;
+    width: 28%;
+    bottom: -80px;
+    right: 0;
+}
+
+.about_flower02 {
+    position: absolute;
+    bottom: 300px;
+    left: 15%;
+    width: 8%;
+}
+
+.about_flower03 {
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    width: 13%;
+}
+
+.about_bird {
+    position: absolute;
+    width: 10%;
+    margin-left: 80%;
+}
+
+.about {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    margin: 64px;
+}
+
+.about_name,
+.about_text p {
+    font-size: 18px;
+    line-height: 1.88;
+    margin-top: 27px;
+    letter-spacing: 0.1em;
+}
+
+.about_name {
+    width: 490px;
+    border-width: 49px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 27px;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.about_text {
+    font-size: 18px;
+    line-height: 1.88;
+}
+
+.contact_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #068B72;
+    width: 315px;
+    height: 198px;
+    position: relative;
+    padding: 10px;
+    border: 3px solid #068B72;
+    margin-top: 180px;
+}
+
+.contact_logo::after {
+    content: '';
+    border: 1.5px solid #000;
+    position: absolute;
+    top: 16px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.87;
+    margin: 7%;
+}
+
+/* 問い合わせフォーム */
+#label,
+#input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.input,
+.label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+.form {
+    max-width: 600px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #068B72;
+}
+
+#content {
+    padding-bottom: 180px;
+}
+
+/* 問い合わせの中の文字 */
+placeholder {
+    color: darkgrey;
+}
+
+/* ボタン */
+.button {
+    background: #EEE36E;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 287px;
+    height: 61px;
+    color: #068B72;
+    transition: 0.3s ease-in-out;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    border: 2px solid #068B72;
+    transition: 0.2s;
+}
+
+.button::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #068B72;
+    border-right: 2px solid #068B72;
+    transform: rotate(45deg);
+    margin-left: 30px;
+}
+
+.button:hover::before {
+    top: 0;
+    left: 0;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: #EEE36E;
+}
+
+.button {
+    margin-top: 110px;
+    margin-bottom: 216px;
+}
+
+/* thankspage */
+.thanks_page p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 3.00;
+    margin: 200px;
+}
+
+.footer_tx {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #EEE36E;
+    padding-bottom: 30px;
+}
+
+/* 紙吹雪 */
+
+/* html,
+body {
+    width: 100%;
+    height: 100%;
+}
+    /*高さを100%にして描画エリアをとる*/
+
+
+
+#particles-js {
+    position: fixed;
+    /*描画固定*/
+    z-index: -1;
+    /*描画を一番下に*/
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    /*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+    z-index: 1;
+    /*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .nav h1 {
+        font-size: 28px;
+    }
+
+    .name p {
+        font-size: 14px;
+    }
+
+    .nav li {
+        font-size: 26px;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+    .lead_logo2 {
+        display: none;
+    }
+
+    .works ul {
+        display: block;
+    }
+
+    .wksp {
+        display: none;
+    }
+
+    .works_logo,
+    .contact_logo {
+        font-size: 18px;
+        width: 177px;
+        height: 115px;
+        padding: 3px;
+        border: 2px solid #068B72;
+    }
+
+    .works_logo::after,
+    .contact_logo::after {
+        border: 1px solid #000;
+        top: 12px;
+        right: -15px;
+    }
+
+    .contact_logo {
+        margin-top: 118px;
+        margin-bottom: 90px;
+    }
+
+    .more a,
+    .button {
+        width: 166px;
+        height: 40px;
+        font-size: 14px;
+        padding-bottom: 2px;
+        box-sizing: border-box;
+    }
+
+    .more a::before,
+    .button::before {
+        top: 6px;
+        left: 6px;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        border: 1px solid #068B72;
+    }
+
+    .more a::after,
+    .button::after {
+        width: 7px;
+        height: 7px;
+        border-top: 1px solid #068B72;
+        border-right: 1px solid #068B72;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .thanks_page p {
+        font-size: 18px;
+    }
+}
