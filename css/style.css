@@ -313,12 +313,11 @@ h2 {
     box-sizing: border-box;
     padding: 8px;
     font-size: 16px;
-    padding-left: 0px;
 }
 
 .form {
     max-width: 600px;
-    width: 350px;
+    width: 450px;
     margin: 0 auto;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
@@ -326,7 +325,8 @@ h2 {
 }
 
 #content {
-    padding-bottom: 180px;
+    height: 250px;
+    padding: 12px;
 }
 
 /* 問い合わせの中の文字 */
@@ -434,8 +434,8 @@ body {
     height: 100%;
 }
 
-@media screen and (max-width: 767px) {
-    .nav h1 {
+@media screen and (max-width: 365px) {
+    .fv h1 {
         font-size: 28px;
     }
 
@@ -443,7 +443,7 @@ body {
         font-size: 14px;
     }
 
-    .nav li {
+    .fv li {
         font-size: 26px;
     }
 
@@ -511,7 +511,7 @@ body {
     }
 
     .form {
-        width: 100%;
+        width: 90%;
     }
 
     .thanks_page p {
