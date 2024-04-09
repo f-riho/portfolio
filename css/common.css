@@ -261,9 +261,9 @@ h2 {
 
 .page_top {
     position: fixed;
-    right: 100px;
+    left: 50%;
     bottom: 210px;
-    width: 80px;
+    width: 8%;
     z-index: 10;
 }
 
@@ -296,10 +296,6 @@ h2 {
 
     .footer {
         width: 100%;
-    }
-
-    .page_top {
-        width: 50px;
     }
 
     .footer_name {
