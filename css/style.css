@@ -239,10 +239,11 @@ h2 {
     line-height: 1.88;
     margin-top: 27px;
     letter-spacing: 0.1em;
+    text-align: center;
 }
 
 .about_name {
-    width: 490px;
+    width: 49%;
     border-width: 49px;
     border-bottom: 2px solid #000;
     padding-bottom: 27px;
@@ -511,7 +512,7 @@ body {
     }
 
     .form {
-        width: 90%;
+        width: 100%;
     }
 
     .thanks_page p {
