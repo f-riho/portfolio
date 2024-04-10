@@ -261,7 +261,7 @@ h2 {
 
 .page_top {
     position: fixed;
-    right: 20%;
+    right: 20px;
     bottom: 210px;
     width: 8%;
     z-index: 10;
@@ -311,7 +311,7 @@ h2 {
     }
 
     .page_top {
-        margin-left: 50%;
+        left: 20px;
     }
 
 }

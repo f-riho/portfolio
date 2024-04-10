@@ -17,11 +17,6 @@
     z-index: 100;
 }
 
-/* #container.is-active {
-    opacity: 0;
-    visibility: hidden;
-} */
-
 .loading {
     width: 100vw;
     height: 100vh;
@@ -410,17 +405,6 @@ placeholder {
     padding-bottom: 30px;
 }
 
-/* 紙吹雪 */
-
-/* html,
-body {
-    width: 100%;
-    height: 100%;
-}
-    /*高さを100%にして描画エリアをとる*/
-
-
-
 #particles-js {
     position: fixed;
     /*描画固定*/
@@ -484,6 +468,10 @@ body {
         border: 1px solid #000;
         top: 12px;
         right: -15px;
+    }
+
+    .about_flower01 {
+        top: 50%;
     }
 
     .contact_logo {

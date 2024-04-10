@@ -79,6 +79,10 @@
 }
 
 @media screen and (max-width:767px) {
+    .about p span {
+        font-size: 14px;
+    }
+
     .about_wrap {
         display: flex;
         flex-direction: column;
