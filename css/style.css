@@ -111,7 +111,7 @@ picture img {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 340px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2.08;
 }
 
@@ -472,6 +472,10 @@ placeholder {
 
     .about_flower01 {
         top: 50%;
+    }
+
+    .about_flower03 {
+        bottom: 50px;
     }
 
     .contact_logo {

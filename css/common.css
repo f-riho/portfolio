@@ -261,7 +261,7 @@ h2 {
 
 .page_top {
     position: fixed;
-    right: 20px;
+    right: 50px;
     bottom: 210px;
     width: 8%;
     z-index: 10;
@@ -294,6 +294,18 @@ h2 {
         width: 100%;
     }
 
+    .fv h1 {
+        font-size: 22px;
+    }
+
+    .fv li {
+        font-size: 26px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
     .footer_name {
         font-size: 20px;
     }
@@ -311,7 +323,7 @@ h2 {
     }
 
     .page_top {
-        left: 20px;
+        right: 20px;
     }
 
 }
