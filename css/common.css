@@ -307,10 +307,14 @@ h2 {
     }
 
     .footer_name {
-        font-size: 20px;
+        font-size: 15px;
     }
 
-    .footer_name p {
+    .footer_page p {
+        font-size: 10px;
+    }
+
+    .footer_instalogo a {
         font-size: 10px;
     }
 

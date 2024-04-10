@@ -76,7 +76,7 @@
 .lp {
     max-width: 1200px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .flex {
@@ -180,4 +180,28 @@
     .title {
         margin: 100px;
     }
+
+    .works_more a {
+        width: 166px;
+        height: 40px;
+        font-size: 14px;
+        padding-bottom: 2px;
+        box-sizing: border-box;
+    }
+
+    .works_more a::before {
+        top: 6px;
+        left: 6px;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        border: 1px solid #068B72;
+    }
+
+    .works_more a::after {
+        width: 7px;
+        height: 7px;
+        border-top: 1px solid #068B72;
+        border-right: 1px solid #068B72;
+    }
+
 }
