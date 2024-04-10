@@ -514,6 +514,8 @@ placeholder {
     }
 
     .thanks_page p {
+        display: inline-block;
+        margin: 60px;
         font-size: 18px;
     }
 }
