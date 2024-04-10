@@ -93,7 +93,7 @@
 .col h3 {
     display: flex;
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -101,7 +101,7 @@
 .works_text {
     display: flex;
     text-align: left;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.77;
