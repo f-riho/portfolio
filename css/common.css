@@ -275,7 +275,7 @@ h2 {
 
 .footer_instalogo img {
     width: 34px;
-    margin: 0 auto 20px;
+    margin: 0 auto 15px;
 }
 
 .footer_instalogo a {
@@ -307,14 +307,14 @@ h2 {
     }
 
     .footer_name {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .footer_page p {
         font-size: 10px;
     }
 
-    .footer_instalogo a {
+    .footer_instalogo p {
         font-size: 10px;
     }
 
