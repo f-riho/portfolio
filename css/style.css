@@ -129,6 +129,8 @@ picture img {
     right: 15%;
 }
 
+/* works */
+
 .works_logo {
     display: flex;
     justify-content: center;
@@ -517,5 +519,10 @@ placeholder {
         display: inline-block;
         margin: 60px;
         font-size: 18px;
+    }
+
+    .thanks_page {
+        position: sticky;
+        bottom: 0;
     }
 }
