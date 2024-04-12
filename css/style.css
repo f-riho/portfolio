@@ -519,10 +519,12 @@ placeholder {
         display: inline-block;
         margin: 60px;
         font-size: 18px;
+        padding-top: 100px;
     }
 
-    .thanks_page {
-        position: sticky;
+    .footer_tx {
+        position: fixed;
         bottom: 0;
+        width: 100%;
     }
 }
