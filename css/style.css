@@ -520,7 +520,8 @@ placeholder {
         display: inline-block;
         margin: 60px;
         font-size: 18px;
-        padding-top: 100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .footer_tx {
